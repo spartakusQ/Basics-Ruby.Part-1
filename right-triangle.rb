@@ -1,10 +1,10 @@
 puts 'Программа для определения свойст треугольника.'
 puts 'Введите сторону: a'
-  side_a = gets.chomp.to_i
+  side_a = gets.chomp.to_f
 puts 'Введите сторону: b'
-  side_b = gets.chomp.to_i
+  side_b = gets.chomp.to_f
 puts 'Введите сторону: c'
-  side_c = gets.chomp.to_i
+  side_c = gets.chomp.to_f
 
   catheter_a = side_a**2
   catheter_b = side_b**2
